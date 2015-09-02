@@ -18,7 +18,7 @@ $(document).on('ready', function() {
     console.log($searchString);
 
 
-var searchUrl = "https://api.instagram.com/v1/tags/" + $searchString + "/media/recent";
+    var searchUrl = "https://api.instagram.com/v1/tags/" + $searchString + "/media/recent";
 
 // ajax request
 $.ajax({
